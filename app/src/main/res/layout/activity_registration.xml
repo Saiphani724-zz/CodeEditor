@@ -44,9 +44,11 @@
             android:hint="Username"
             android:background="@drawable/button"
             android:inputType="textPersonName"
+            android:id="@+id/username"
             android:padding="15dp" />
 
         <EditText
+            android:id="@+id/email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Email"
@@ -55,6 +57,7 @@
             android:padding="15dp" />
 
         <EditText
+            android:id="@+id/password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Password"
@@ -63,12 +66,14 @@
             android:padding="15dp"/>
 
         <Spinner
+            android:id="@+id/favLang"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="15dp"
             android:entries="@array/Favourite_Lang"/>
 
         <Button
+            android:id="@+id/submit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
