@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CodeEditor</string>
+    <string-array name="Favourite_Lang">
+        <item>Choose Your Favourite Language</item>
+        <item>C++</item>
+        <item>C</item>
+        <item>Java</item>
+        <item>Python3</item>
+    </string-array>
+</resources>
